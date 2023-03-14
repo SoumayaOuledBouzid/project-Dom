@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Shopping Shoes</title>
+    <link rel="stylesheet" href="style.css">
+    
+<body>
+    <section>
+        <div class="container">
+            <div class="page-shopping">
+                <div class="header-float">
+                    <h3 class="total">Shopping Bag Total :</h3>
+                    <span id="total">0</span>
+                    <span>$</span>
+                </div>
+                <div class="espace" id="espace1">
+                    <div class="icons">
+                        <i class="fas fa-skull" onclick="remove()"></i>
+                        <i class="fas fa-heart" id="heart" onclick="heart1()"></i>
+                    </div>
+                    <div class="spedri">
+                        <div>
+                        <img src="./images/images (1).jfif" alt="spedri">
+                        </div>
+                        <span> <strong>sbedri</strong> 
+                            <br>
+                                        White
+                        </span>
+                    </div>
+                    <div class="btns">
+                        <span class="btn" onclick="inc()">+</span>
+                        <span class="btn" id="product-qtn">0</span>
+                        <span class="btn" onclick="dec()">-</span>
+                    </div>
+                    <p class="product-price"><span id="product1price">0</span> <span>$</span></p>
+                </div>
+                <div class="espace" id="espace2">
+                    <div class="icons">
+                        <i class="fas fa-skull" onclick="remove2()"></i>
+                        <i class="fas fa-heart" id="heart" onclick="heart2()"></i>
+                    </div>
+                    <div class="sneakers">
+                        <div>
+                        <img src="./images/téléchargement.jfif" alt="sneakers">
+                        </div>
+                        <span> <strong>Sneakers</strong> 
+                            <br>
+                                        White
+                        </span>
+                    </div>
+                    <div class="btns">
+                        <span class="btn" onclick="inc2()">+</span>
+                        <span class="btn" id="product-qtn2">0</span>
+                        <span class="btn" onclick="dec2()">-</span>
+                    </div>
+                    <p class="product-price"><span id="product1price2">0</span> <span>$</span></p>
+                    
+                </div>
+                <div class="espace" id="espace3">
+                    <div class="icons">
+                        <i class="fas fa-skull" onclick="remove3()"></i>
+                        <i class="fas fa-heart" id="heart" onclick="heart3()"></i>
+                    </div>
+                    <div class="scraf">
+                        <div>
+                        <img src="./images/images (2).jfif" alt="scraf">
+                        </div>
+                        <span> <strong>Scraf</strong> 
+                            <br>
+                                        Brown
+                        </span>
+                    </div>
+                    <div class="btns">
+                        <span class="btn" onclick="inc3()">+</span>
+                        <span class="btn" id="product-qtn3">0</span>
+                        <span class="btn" onclick="dec3()">-</span>
+                    </div>
+                    <p class="product-price"><span id="product1price3">0</span> <span>$</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="main.js"></script>
+</body>
+</html>
